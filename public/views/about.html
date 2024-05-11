@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="../css/bootstrap.css">
-  <link rel="stylesheet" href="/css/styles1.css">
+  <link rel="stylesheet" href="/public/css/bootstrap.css">
+  <link rel="stylesheet" href="/public/css/styles1.css">
 </head>
 
 <body>
@@ -15,13 +15,21 @@
   <section class="nav-section">
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
       <a class="navbar-brand" href="#">
-        <img src="../img/logo.png" alt="">
+        <img src="/public/img/logo.png" alt="">
         <!-- <img src="img/logo_orange.png" alt=""> -->
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active ">
+            <a class="nav-link text-warning" href="/">Home<span class="sr-only">(current)</span></a>
+          </li>
+        
+        </ul>
+      </div>
 
       <form class="form-inline">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -49,7 +57,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="/img/cats-kits.png" class="card-img-top" alt="...">
+        <img src="/public/img/cats-kits.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cats & Kittens</h5>
           <p class="card-text">Pawsitive currently has over 100 cats and kittens available for adoption. All cats are
@@ -58,7 +66,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="/img/parrot-bird.png" class="card-img-top" alt="...">
+        <img src="/public/img/parrot-bird.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Parrots & Birds</h5>
           <p class="card-text">The arrival of homeless birds can throw the typical dog-and-cat oriented shelter into
@@ -67,7 +75,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="/img/rodent.png" class="card-img-top" alt="...">
+        <img src="/public/img/rodent.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Rodent Pets</h5>
           <p class="card-text">Our mission is to improve the lives of domestic rodents animals through education,
@@ -76,12 +84,12 @@
         </div>
       </div>
       <div class="card">
-        <img src="/img/exotic pets.png" class="card-img-top" alt="...">
+        <img src="/public/img/exotic pets.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Exotic Pets</h5>
           <p class="card-text">We're working to save the lives of all exotic animals across America, giving pets second
             chances and happy homes.</p>
-          <p class="card-text"><small class="text-muted"></small></p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
     </div>
@@ -92,10 +100,10 @@
 
 
 
-  <script src="/public/js/jquery-3.6.1.js"></script>
-<script src="/public/js/bootstrap.js"></script>
-<script src="/public/js/bootstrap.bundle.js"></script>
-<script src="/public/js/bootstrap.bundle.min.js"></script>
+  <script src=`jquery-3.6.1.js`></script>
+  <script src=`bootstrap.js`></script>
+  <script src=`bootstrap.bundle.js`></script>
+  <script src=`bootstrap.bundle.min.js`></script>
 </body>
 
 </html>
