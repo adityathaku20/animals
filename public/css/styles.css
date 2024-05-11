@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+* {
+  font-family: 'Roboto Slab', serif;
+}
+
+img {
+  height: 100%;
+}
+
+.nav-section {
+  background-image: url(../img/dog-bg.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-link {
+  color: white;
+}
+/* it styles my button  */
+.my-button {
+  border: none;
+  outline: none;
+  padding: 12px 30px;
+  color: white;
+  background-color: #ffc107;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.my-button span img{
+  width: 30px;
+  height: 30px;
+}
+
+
+.list-group img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.list-group p {
+  margin-left: 45px;
+}
+
+
+.furry h1 {
+  font-size: 200px;
+  margin-top: 130px;
+  font-family:fantasy;
+}
+
+.love h1 {
+  font-size: 50px;
+  font-style: bolder;
+  border-bottom: 1px solid grey;
+}
+
+
+.pets {
+  text-align: center;
+  
+}
+
+.card {
+  border: none;
+}
+
+.love .card .card-img img{
+  height: 100%;
+}
+.pets-adoption {
+  background-color: rgb(153, 94, 94);
+  margin-top: 0px;
+}
+
+.love {
+  align-items: center;
+}
+
+.mapouter {
+  margin-right: auto;
+  margin-left: auto;
+}

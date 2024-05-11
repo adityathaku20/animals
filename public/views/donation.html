@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)10%,rgba(0,0,0,0.5)10%), url(../img/12.avif);
+    background-position: center;
+    background-size: cover;
+    height: 109dvh;
+    color:whitesmoke;
+    text-align: center;
+    padding: 10px;
+    
+}
+#na{
+    background-color: #000;
+    color:whitesmoke;
+    text-align: center;
+    padding: 10px;  
+    display: flex;
+    word-spacing: normal;
+}
+nav a{
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+    padding: 6px 20px;
+    transition: .5s;
+}
+nav a:hover{
+    color: yellow;
+}
+nav a span{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 1;
+border-bottom: 2px solid #0ef;
+border-radius: 15px;
+transform: scale(0) translate Y(50px);
+opacity: 0;
+transition: .5s;
+}
+nav a:hover span{
+    transform: scale(1) translate Y(0);
+    opacity: 1;
+}
+form{
+    color: #000;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.featured-animals {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.featured-animal {
+    text-align: center;
+    width: 30%;
+}
+.featured-animal img {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+img{
+ transform: scale(1);
+    transition: transform 0.3s
+    ease-in-out;
+}
+img:hover{
+    transform: scale(1.3);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #2D9FB1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, select:focus, button:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76,175,80,0.5);
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, #333 50%), linear-gradient(135deg, #333 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#customAmount {
+    display: none;
+}
+    </style>
+</head>
+
+<body>
+  <BR><br><br>
+ <h1>DONATE & HELP ANIMALS</h1>
+ <h1> FOR THEIR WELFARE</h1>
+<br><br>
+  <div>
+  <form action="/donate" method="post" enctype="multipart/form-data">
+      <h3>DONATE NOW</h3>
+    <input type="text" name="fname" placeholder="First Name">
+    <input type="text" name="lname" placeholder="Last Name">
+    <input type="email" name="mail" placeholder="Email">
+    <input type="number"name="phone" placeholder="Phone">
+    <select >
+      <option value="" selected disabled>States</option>
+      <option value="Assam" name="state">Assam</option>
+      <option value="Andhra Pradesh">Andhra Pradesh</option>
+      <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+      <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+      <option value="Bihar">Bihar</option>
+      <option value="Chandigarh">Chandigarh</option>
+      <option value="Chhattisgarh">Chhattisgarh</option>
+      <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+      <option value="Daman and Diu">Daman and Diu</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Goa">Goa</option>
+      <option value="Gujarat">Gujarat</option>
+      <option value="Haryana">Haryana</option>
+      <option value="Himachal Pradesh">Himachal Pradesh</option>
+      <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+      <option value="Jharkhand">Jharkhand</option>
+      <option value="Karnataka">Karnataka</option>
+      <option value="Kerala">Kerala</option>
+      <option value="Ladakh">Ladakh</option>
+      <option value="Lakshadweep">Lakshadweep</option>
+      <option value="Madhya Pradesh">Madhya Pradesh</option>
+      <option value="Maharashtra">Maharashtra</option>
+      <option value="Manipur">Manipur</option>
+      <option value="Meghalaya">Meghalaya</option>
+      <option value="Mizoram">Mizoram</option>
+      <option value="Nagaland">Nagaland</option>
+      <option value="Odisha">Odisha</option>
+      <option value="Puducherry">Puducherry</option>
+      <option value="Punjab">Punjab</option>
+      <option value="Rajasthan">Rajasthan</option>
+      <option value="Sikkim">Sikkim</option>
+      <option value="Tamil Nadu">Tamil Nadu</option>
+      <option value="Telangana">Telangana</option>
+      <option value="Tripura">Tripura</option>
+      <option value="Uttar Pradesh">Uttar Pradesh</option>
+      <option value="Uttarakhand">Uttarakhand</option>
+      <option value="West Bengal">West Bengal</option>
+    </select>
+    <select id="amountSelect" onchange="checkCustomAmount()">
+      <option value="" selected disabled>Choose Amount</option>
+      <option value="10">&#8377;10</option>
+      <option value="20">&#8377;20</option>
+      <option value="50">&#8377;50</option>
+      <option value="100">&#8377;100</option>
+      <!-- Add more options as needed -->
+      <option value="custom">Custom</option>
+    </select>
+    
+    <input type="number" id="customAmount" placeholder="Enter custom amount in ₹" style="display: none;" name="amount">
+    
+    <button type="submit">SUBMIT</button>
+    
+    <script>
+        document.getElementById("donationForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            submitForm();
+        });
+        
+        function submitForm() {
+            var formData = {
+                fname: document.getElementsByName("fname")[0].value,
+                lname: document.getElementsByName("lname")[0].value,
+                mail: document.getElementsByName("mail")[0].value,
+                phone: document.getElementsByName("phone")[0].value,
+                state: document.getElementsByName("state")[0].value,
+                amount: document.getElementById("amountSelect").value === "custom" ? document.getElementById("customAmount").value : document.getElementById("amountSelect").value
+            };
+        
+            fetch('http://localhost:3000/donate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                // You can redirect user or show a thank you message here
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+        </script>
+    
+</form> 
+ </div>
+  
+
+
+</body>
+</html>
