@@ -85,3 +85,38 @@ img {
   margin-right: auto;
   margin-left: auto;
 }
+
+.adopt-puppy {
+  background-color: #ffcc80; 
+  padding: 50px; 
+}
+
+.adopt-puppy h3 {
+  color: #ff6f00; 
+  font-size: 36px; 
+}
+
+.adopt-puppy p {
+  color: #333; 
+  font-size: 18px;
+}
+
+/* New button style */
+.adopt-puppy .my-button {
+  background-color: #ff6f00; 
+  padding: 15px 40px; 
+  border-radius: 25px;
+  font-size: 20px;
+  color: #ffffff; 
+}
+
+.adopt-puppy .my-button:hover {
+  background-color: #ff9800; 
+}
+
+.adopt-puppy .my-button span img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
